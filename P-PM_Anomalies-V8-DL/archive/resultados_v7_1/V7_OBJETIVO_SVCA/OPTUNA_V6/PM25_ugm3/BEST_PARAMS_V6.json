@@ -1,0 +1,27 @@
+{
+  "target": "PM25_ugm3",
+  "value": 0.5553866082123133,
+  "params": {
+    "mode": "geo_env",
+    "window_days": 14,
+    "n_blocks": 5,
+    "channel_width": 64,
+    "kernel_size": 2,
+    "dropout": 0.35208619905645777,
+    "learning_rate": 0.0008330803890301997,
+    "weight_decay": 2.106648601704219e-06,
+    "batch_size": 256,
+    "gradient_clip": 2.093893678388033,
+    "donor_strategy": "all",
+    "donor_k": 4,
+    "similarity_temperature": 1.6556363976983668,
+    "loss": "mse"
+  },
+  "user_attrs": {
+    "R2_mean": 0.14389909243660298,
+    "R2_min": -0.116411692625918,
+    "R2_sd": 0.29281192272191015,
+    "mean_domain_distance": 1.4434195148196252,
+    "sMAPE_mean_pct": 31.723392269259563
+  }
+}

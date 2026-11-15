@@ -1,0 +1,27 @@
+{
+  "target": "O3MDA8_ugm3",
+  "value": 0.47130755288419746,
+  "params": {
+    "mode": "env",
+    "window_days": 14,
+    "n_blocks": 4,
+    "channel_width": 48,
+    "kernel_size": 2,
+    "dropout": 0.23140596653280865,
+    "learning_rate": 0.0009073292723037179,
+    "weight_decay": 0.0007136857508146539,
+    "batch_size": 256,
+    "gradient_clip": 2.7057951213353997,
+    "donor_strategy": "robust_quantile",
+    "donor_k": 2,
+    "similarity_temperature": 0.7353689137388895,
+    "loss": "mae"
+  },
+  "user_attrs": {
+    "R2_mean": 0.17426851852350161,
+    "R2_min": 0.024316262702923863,
+    "R2_sd": 0.139531236701571,
+    "mean_domain_distance": 1.2899165551477874,
+    "sMAPE_mean_pct": 21.831937946080583
+  }
+}

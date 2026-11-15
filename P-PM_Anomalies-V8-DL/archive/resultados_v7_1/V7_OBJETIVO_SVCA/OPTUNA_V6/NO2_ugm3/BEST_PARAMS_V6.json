@@ -1,0 +1,27 @@
+{
+  "target": "NO2_ugm3",
+  "value": 2.8064924236119815,
+  "params": {
+    "mode": "temporal",
+    "window_days": 14,
+    "n_blocks": 3,
+    "channel_width": 128,
+    "kernel_size": 5,
+    "dropout": 0.39031196277349295,
+    "learning_rate": 0.0025506559635835643,
+    "weight_decay": 0.00044320465008882516,
+    "batch_size": 256,
+    "gradient_clip": 2.7858000432280647,
+    "donor_strategy": "all",
+    "donor_k": 3,
+    "similarity_temperature": 0.5353872200537715,
+    "loss": "mae"
+  },
+  "user_attrs": {
+    "R2_mean": -4.972329432146866,
+    "R2_min": -8.451620624411158,
+    "R2_sd": 2.3664662618074557,
+    "mean_domain_distance": 1.524762478519736,
+    "sMAPE_mean_pct": 59.78104579064255
+  }
+}
